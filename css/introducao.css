@@ -1,0 +1,212 @@
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.introducao{
+
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px 40px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    color: #525252;
+    background: url(/img/banner.png) no-repeat;
+    height: 100vh;
+    
+
+    
+    
+}
+
+
+/*  introdução Conteiner  */
+
+
+.introducao  .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.introducao .home-content .text-1{
+    font-size: 27px;
+    color: #969696;
+}
+
+.introducao .home-content .text-2{
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: -3px;
+    color:#969696;
+}
+
+.introducao .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    padding-bottom: 40px;
+    color:#969696;
+}
+
+.introducao a{
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    gap: 100px;
+    background: #6F39F7;
+    margin: auto;
+    border-radius: 4px;
+    margin-right: 1rem;
+    margin-bottom: 60px;
+   
+
+    
+}
+
+.introducao a:hover{
+    background:#E7329E;
+    color:#fff;
+    border-radius:4px solid ;
+    border: none;
+    padding: 10px 20px;
+   
+}
+
+.introducao .home-content .text-3  span{
+    color:#6F39F7 ;
+    margin-left: 10px;
+    font-weight: 500;
+    
+}
+
+.bi-linkedin{
+    margin-right: 10px;
+}
+
+.bi-github{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== MOBILE  ========== */
+
+
+@media ( max-width: 1000px){
+    .introducao h1{
+        font-size: 3rem;
+    }
+}
+
+@media ( max-width: 800px) {
+    .introducao {
+        gap: 40px;
+        padding: 20px;
+      
+    }
+    .introducao .home-content{
+        font-size: 2rem;
+    }
+    .introducao .home-content a{
+        font-size: 1rem;
+        gap: 100px;
+        margin: initial;
+
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 500px){
+        .introducao {
+            gap: 40px;
+        
+            
+        
+        }
+            .introducao h1{
+                font-size: 1rem;
+        }
+            .introducao a{
+                font-size: 1rem;
+                gap: 40px; 
+
+        }
+           .home-content .text-2{
+               font-size: 1.5rem;
+           }
+
+           .home-content .text-3 span{
+               font-size: 1.5rem;
+               font-weight: 500;
+           }
+            .bi-linkedin{
+                display:inline-flex
+            
+            }
+
+            .bi-github{
+                display: inline-flex;
+                margin-top: 30px;
+            }
+
+
+
+}
+
+@media ( max-width: 400px) {
+        .introducao {
+        flex-wrap: wrap;
+        justify-items: left;
+        gap: 40px;
+        margin: 0px auto;
+       
+    }
+        .introducao h1{
+            font-size: 1rem;
+    }
+        .introducao a{
+            font-size: 1rem;
+            gap: 40px;
+            margin: 40px;
+
+    }
+
+        .text-1{
+            font-size:1rem
+        }
+
+            .bi-linkedin{
+                display:inline-flex
+            
+            }
+
+            .bi-github{
+                display: inline-flex;
+                margin-top: 30px;
+            }
+
+
+}

@@ -1,0 +1,92 @@
+.skills{
+    background: #fff;
+}
+
+.skills-container{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    color: #c4c4c4;
+    
+}
+
+.skills-texto{
+    font-size: 1.25rem;
+    line-height: 1.33;
+    max-width: 60ch;
+    margin-bottom: 60px;
+    color: #525252;
+}
+
+
+.habilidades h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top:40px;
+    margin-bottom: 5px;
+    color: #8e8e8e;
+    font-size: 1rem;
+}
+
+.progress-bar{
+    background: #e0e0e0;
+    width: 400px;
+    height: 10px;
+    border-radius: 5px;
+    justify-items: center;
+    
+}
+
+.progress-bar div{
+    height: 10px;
+    border-radius: 5px;
+    width: 50%;
+    background: #141414;
+    
+
+}
+
+
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #6c4fc5;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* ===== MOBILE ======*/
+
+
+
+
+@media(max-width: 800px){
+    .skills-container{
+        grid-template-columns: 1fr;
+        padding: 60px 20px;
+        gap: 40px;
+    }
+
+    .skills-texto{
+        font-size: 1.25rem;
+    }
+    .skills .subtitulo{
+        color: #525252;
+
+    }
+}
+
+
